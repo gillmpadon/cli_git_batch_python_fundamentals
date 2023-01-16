@@ -1,0 +1,91 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+        <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Font+Name">
+        <title>PYSCRIPT</title>
+        <style>
+        
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+        text-shadow: 4px 4px 4px #aaa;
+        }
+
+    .container{
+        position: relative;
+        top: 150px;
+        margin: auto;
+        width: 450px;
+        height: 300px;
+        border: 1px solid black;
+        border-radius: 50px;
+        padding: 30px;
+    }
+
+    .container  h4{
+        text-align: center;
+        position: relative;
+        top: -60px;
+    }
+
+    .contain p{
+        margin: 0;
+        position: relative;
+        top: -90px;
+        font-size: 30px;
+    }
+
+    .image img{
+        position: relative;
+        margin-left: 20px;
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        top: 150px;
+        border: 1px solid black;
+    }
+
+    .image{
+        margin: auto;
+    }
+    .main{
+        margin: auto;
+        display: flex;
+    }
+
+    </style>
+        
+    </head>
+    <body>
+    <div class="main">
+        <div class="container">
+            <H4>SERVER</H4>
+            <div class="contain">
+            <p><label id="status"></label></p>
+            <p><label id="port"></label></p>
+            <p><label id="guess"></label></p>
+            <p><label id="password"></label></p>
+                
+            </div>
+        </div>
+ 
+    <py-script>
+pyscript.write('port', 'Port: 8000')
+pyscript.write('status','Status: Hacked Completed')
+pyscript.write('guess','Guess: 3')
+pyscript.write('password', 'Password: 29A')
+</py-script>
+<div class="image">
+<img src="./images/happy.jpg" ></img>
+</div>
+</div>
+</body>
+</html>
